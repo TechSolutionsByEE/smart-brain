@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.error-message {
+  color: #bb0a1e;
+  font-size: 2rem;
+  font-weight: bold;
+}

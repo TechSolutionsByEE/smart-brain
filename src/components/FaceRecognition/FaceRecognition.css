@@ -1,0 +1,77 @@
+img{
+   object-fit: cover;
+}
+
+.facerecognition{
+    position:relative;
+    width: 500px;
+}
+.bounding_box{
+    position: absolute;
+    box-shadow: 0 0 0 5px #149df2 inset;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 1024px) {
+    .gfg-div {
+        width:auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    .gfg-div {
+        width:auto;
+        height: auto;
+    }
+}
+
+@media screen
+    and (max-device-width: 640px) {
+    .gfg-div {
+        width:auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-device-width: 320px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width:auto;
+        height: auto;
+    }
+}
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .gfg-div {
+    width:auto;
+    height: auto;
+  }
+} 
+
+@media screen and (max-device-width: 480px) and (orientation: portrait) {
+  .gfg-div {
+    width:auto;
+    height: auto;
+  }
+}  
+
+@media screen and (min-device-width: 320px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width:auto;
+        height: auto;
+    }
+}
+
+@media screen and (min-device-width: 200px)
+    and (-webkit-min-device-pixel-ratio: 2) {
+    .gfg-div {
+        width:auto;
+        height: auto;
+    }
+}
