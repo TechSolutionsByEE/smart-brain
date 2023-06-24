@@ -72,7 +72,7 @@ onInputChange = (event) => {
 
 onButtonSubmit = () => {
 this.setState({ imageUrl: this.state.input });
-fetch('http://localhost:3000/imageurl', {
+fetch('https://smart-brain-api-wkdv.onrender.com/imageurl', {
   method: 'post',
   headers: { 'Content-Type': 'application/json' },
   body: JSON.stringify({
@@ -83,7 +83,7 @@ fetch('http://localhost:3000/imageurl', {
   .then((response) => {
     const imageUrl = this.state.input
     if (imageUrl && response) {
-      fetch('http://localhost:3000/image', {
+      fetch('https://smart-brain-api-wkdv.onrender.com/image', {
         method: 'put',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
