@@ -83,6 +83,7 @@ fetch('https://smart-brain-api-wkdv.onrender.com/imageurl', {
   .then((response) => {
     const imageUrl = this.state.input
     if (imageUrl && response) {
+      console.log("response", response)
       fetch('https://smart-brain-api-wkdv.onrender.com/image', {
         method: 'put',
         headers: { 'Content-Type': 'application/json' },
